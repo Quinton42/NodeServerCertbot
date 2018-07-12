@@ -5,7 +5,9 @@ const express = require('express');
 const app = express();
 
 app.use(express.static(__dirname, { dotfiles: 'allow' } ));
-
+app.get('/', function (req, res) {
+    return res.jsonp({'output' : 'ok'})
+});
 app.listen(80, () => {
     console.log('HTTP server running on port 80');
 });
