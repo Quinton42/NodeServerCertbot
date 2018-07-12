@@ -1,0 +1,22 @@
+{
+  "name": "certbotnode",
+  "version": "1.0.0",
+  "description": "\"Tiny node server for certbot ssl key generation\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quinton42/NodeServerCertbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quinton42/NodeServerCertbot/issues"
+  },
+  "homepage": "https://github.com/Quinton42/NodeServerCertbot#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
